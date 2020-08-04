@@ -40,8 +40,8 @@ function draw() {
   background(220);
   if (snake.eat(food)) {
     foodLocation();
-    text ("score: "+snake.len, 350, 50);
   }
+  text ("score: "+snake.len, 350, 50);
   snake.update();
   snake.show();
 
